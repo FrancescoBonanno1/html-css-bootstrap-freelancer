@@ -33,8 +33,8 @@ header a {
 #whiterow img{
     width: 28%;
 }
-#aboutaqua {
-    color: aquamarine;
+#aboutaqua{
+    background-color: aquamarine;
 }
 #aboutaqua h2{
     color: white;
@@ -45,7 +45,40 @@ header a {
 #aboutaqua i{
     color: white;
 }
+#aboutaqua hr{
+    color: rgb(255, 255, 255);
+    width: 15em;
+    border-width: 0.3em;
+    opacity: 100%;
+   }
+#aboutaqua p{
+    color: white;
+}
 
+#contact h2{
+color: rgb(0, 0, 0);
+}
+#contact hr{
+    color: rgb(0, 0, 0);
+    width: 15em;
+    border-width: 0.3em;
+    opacity: 100%;
+   }
+.list-hr {
+    color: rgb(59, 59, 59);
+    width: 25em;
+    border-width: 0.3em;
+    opacity: 100%;
+}
+#fake-footer{
+    background-color: rgb(18, 18, 97);
+}
+#fake-footer div{
+    color: white;
+}
+footer{
+    background-color: rgb(27, 27, 27);
+}
 body{
     overflow-y: auto;
 }
