@@ -1,20 +1,26 @@
 header {
-    background-color: rgb(17, 45, 56);
+    background-color: rgb(44, 62, 80);
 }
 
 header h2 {
     color: white;
 }
 
+header h2:hover {
+    cursor: pointer;
+
+}
+
 header a {
     color: rgb(102, 101, 101);
 }
 
-#coloraquagreen img{
+#coloraquagreen img {
     width: 40%;
 }
+
 #coloraquagreen {
-    background-color: rgb(1, 133, 89);
+    background-color: rgb(26, 188, 156);
 }
 
 #coloraquagreen hr {
@@ -29,59 +35,85 @@ header a {
 #coloraquagreen i {
     color: white;
 }
-#whiterow hr{
- color: black;
- width: 15em;
-}
-#whiterow img{
-    width: 28%;
-}
-#aboutaqua{
-    background-color: aquamarine;
-}
-#aboutaqua h2{
-    color: white;
-}
-#aboutaqua hr{
-    color: white;
-}
-#aboutaqua i{
-    color: white;
-}
-#aboutaqua hr{
-    color: rgb(255, 255, 255);
+
+#whiterow hr {
+    color: black;
     width: 15em;
-    border-width: 0.3em;
-    opacity: 100%;
-   }
-#aboutaqua p{
+}
+
+#whiterow img {
+    width: 95%;
+}
+
+#aboutaqua {
+    background-color: rgb(26, 188, 156);
+}
+
+#aboutaqua h2 {
     color: white;
 }
 
-#contact h2{
-color: rgb(0, 0, 0);
+#aboutaqua hr {
+    color: white;
 }
-#contact hr{
-    color: rgb(0, 0, 0);
+
+#aboutaqua i {
+    color: white;
+}
+
+#aboutaqua hr {
+    color: rgb(255, 255, 255);
     width: 15em;
-    border-width: 0.3em;
+    border-width: 0.1em;
     opacity: 100%;
-   }
+}
+
+#aboutaqua p {
+    color: white;
+}
+
+#contact h2 {
+    color: rgb(0, 0, 0);
+}
+
+#contact hr {
+    color: rgb(59, 59, 59);
+    width: 15em;
+    border-width: 0.1em;
+    opacity: 100%;
+}
+
 .list-hr {
     color: rgb(59, 59, 59);
     width: 25em;
-    border-width: 0.3em;
+    border-width: 0.1em;
     opacity: 100%;
 }
-#fake-footer{
-    background-color: rgb(18, 18, 97);
+
+#fake-footer {
+    background-color: rgb(58, 84, 109);
 }
-#fake-footer div{
+
+#fake-footer div {
     color: white;
 }
-footer{
-    background-color: rgb(27, 27, 27);
+
+#fake-footer span {
+    color: aquamarine;
 }
-body{
+
+#fake-footer span:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(44, 62, 80);
+}
+
+footer a {
+    color: white;
+}
+
+body {
     overflow-y: auto;
 }
