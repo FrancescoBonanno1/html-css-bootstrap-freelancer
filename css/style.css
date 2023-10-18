@@ -10,6 +10,9 @@ header a {
     color: rgb(102, 101, 101);
 }
 
+#coloraquagreen img{
+    width: 40%;
+}
 #coloraquagreen {
     background-color: rgb(1, 133, 89);
 }
