@@ -14,7 +14,6 @@ header h2:hover {
 header a {
     color: rgb(102, 101, 101);
 }
-
 #coloraquagreen img {
     width: 40%;
 }
@@ -116,4 +115,15 @@ footer a {
 
 body {
     overflow-y: auto;
+}
+@media screen and (min-width:576px) {
+    #burger{
+        display: none;
+    }
+    
+}
+@media  screen and (max-width:576px) {
+    header a{
+        display: none;
+    }
 }
